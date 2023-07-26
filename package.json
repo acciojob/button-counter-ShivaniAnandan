@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {     
-    "test": "cross-env NODE_OPTIONS=--openssl-legacy-provider jest --no-color 2>output.txt", 
-    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server --mode development --watch --open --hot",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider webpack --mode production" 
+<<<<<<< HEAD
+"scripts": {
+  "test": "jest --no-color 2>output.txt",
+  "start": "webpack-dev-server --mode development --watch --open --hot",
+  "build": "webpack --mode production"
 },
+=======
+  "scripts": {
+    "test": "jest --no-color 2>output.txt",
+    "start": "webpack-dev-server --mode development --watch --open --hot",
+    "build": "webpack --mode production"
+  },
+>>>>>>> 6de869d2ba237f61f4b386c6468841b54d8fb72c
   "keywords": [],
   "author": "",
   "license": "ISC",
